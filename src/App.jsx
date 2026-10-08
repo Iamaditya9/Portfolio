@@ -236,7 +236,7 @@ function App() {
             <div className="profile-card">
               <div className="profile-glow" />
               <img
-                src="/profile.jpeg"
+                src="/Portfolio/profile.jpeg"
                 alt="Aditya Yadav"
                 className="profile-image"
               />
