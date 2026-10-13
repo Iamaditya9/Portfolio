@@ -210,7 +210,7 @@ function App() {
                 View My Work <Arrow />
               </a>
 
-              <a href="/resume.pdf" className="secondary-btn">
+              <a href={`${import.meta.env.BASE_URL}resume.pdf`} className="secondary-btn">
                 Download Resume <span>↓</span>
               </a>
             </div>
@@ -552,7 +552,7 @@ function App() {
               </a>
             ))}
 
-            <a href="/resume.pdf" className="contact-card">
+            <a href={`${import.meta.env.BASE_URL}resume.pdf`} className="contact-card">
               <span className="contact-icon">↓</span>
               <span>
                 <small>Resume</small>
